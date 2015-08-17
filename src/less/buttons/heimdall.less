@@ -1,0 +1,29 @@
+/**
+ * Buttons: Heimdall Effect
+ */
+.btn-heimdall when (@button_heimdall = true) {
+    .loki-btn;
+    overflow: hidden;
+
+    &:after {
+        width: 101%;
+        height: 0;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    &:hover:after {
+        height: 75%;
+        opacity: 1;
+    }
+
+    &:active:after {
+        height: 130%;
+        opacity: 1;
+    }
+}

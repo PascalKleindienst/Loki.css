@@ -1,0 +1,18 @@
+/**
+ * Buttons: Dagur Effect
+ */
+.btn-dagur when (@button_dagur = true) {
+    .loki-btn;
+
+    &:after {
+        width: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    &:hover:after,
+    &:active:after {
+        width: 100%;
+    }
+}
