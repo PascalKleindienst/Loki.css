@@ -1,0 +1,46 @@
+/**
+ * Loki.css - Green Theme
+ */
+@import "theme";
+
+// vars
+@emerald: #2ecc71;
+@clouds: #fff;
+
+// mixins
+.btn {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 15px;
+    padding: 25px 80px;
+    border: 3px solid @emerald;
+    color: @emerald;
+}
+
+// =========
+// buttons
+// =========
+// aegir
+.btn-aegir when (@button_aegir = true) {
+    &:hover,
+    &:active {
+        color: @clouds;
+        background: @emerald;
+    }
+}
+
+// borr, dagur, eir, freyja
+.btn-borr,
+.btn-dagur,
+.btn-eir,
+.btn-freyja,
+.btn-heimdall {
+    &:after {
+        background: @emerald;
+    }
+
+    &:hover,
+    &:active {
+        color: @clouds;
+    }
+}
