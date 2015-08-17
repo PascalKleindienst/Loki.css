@@ -1,0 +1,22 @@
+{
+  "name": "Loki.css",
+  "version": "1.0.0",
+  "description": "CSS Library to style gui elements with modern animations",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-less": "^1.0.1",
+    "less-plugin-autoprefix": "^1.4.2",
+    "less-plugin-clean-css": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PascalKleindienst/Loki.css"
+  },
+  "author": "Pascal Kleindienst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PascalKleindienst/Loki.css/issues"
+  },
+  "homepage": "https://github.com/PascalKleindienst/Loki.css"
+}
